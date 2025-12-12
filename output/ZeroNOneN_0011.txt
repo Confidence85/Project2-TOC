@@ -1,0 +1,2 @@
+Tracing NTM: ZeroNOneN on input '0011'
+String rejected in 6 steps.

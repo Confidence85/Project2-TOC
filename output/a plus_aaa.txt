@@ -1,0 +1,9 @@
+Tracing NTM: a plus on input 'aaa'
+String accepted in 4 steps.
+
+Trace path:
+Step 0:   [q1] aaa
+Step 1:  a [q1] aa
+Step 2:  aa [q1] a
+Step 3:  aaa [q2] 
+Step 4:  aa [q3] a_

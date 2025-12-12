@@ -1,0 +1,14 @@
+Tracing NTM: palindrome checker on input '010'
+String accepted in 9 steps.
+
+Trace path:
+Step 0:   [q0] 010
+Step 1:  x [q1] 10
+Step 2:  x1 [q1] 0
+Step 3:  x10 [q1] 
+Step 4:  x1 [q3] 0_
+Step 5:  x [q3] 10_
+Step 6:   [q3] x10_
+Step 7:   [q3] _x10_
+Step 8:  _ [q0] x10_
+Step 9:  __ [qacc] 10_

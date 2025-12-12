@@ -1,0 +1,27 @@
+palindrome checker
+q0,q1,q2,q3,q4,qacc,qrej
+0,1
+0,1,x,_
+q0
+qacc
+qrej
+q0,_,qacc,_,R
+q0,0,q1,x,R
+q0,1,q2,x,R
+q1,0,q1,0,R
+q1,1,q1,1,R
+q1,x,q1,x,R
+q1,_,q3,_,L
+q2,0,q2,0,R
+q2,1,q2,1,R
+q2,x,q2,x,R
+q2,_,q4,_,L
+q3,x,q3,x,L
+q3,0,q3,0,L
+q3,1,q3,1,L
+q3,_,q0,_,R
+q4,x,q4,x,L
+q4,0,q4,0,L
+q4,1,q4,1,L
+q4,_,q0,_,R
+q0,x,qacc,_,R

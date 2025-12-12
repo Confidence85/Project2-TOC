@@ -1,0 +1,10 @@
+Tracing NTM: equal 0s and 1s on input '01'
+String accepted in 5 steps.
+
+Trace path:
+Step 0:   [q0] 01
+Step 1:  _ [q1] 1
+Step 2:   [q3] _x
+Step 3:  _ [q5] x
+Step 4:  _x [q5] 
+Step 5:  _x_ [qacc] 
