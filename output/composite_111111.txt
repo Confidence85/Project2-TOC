@@ -1,0 +1,32 @@
+Tracing NTM: composite on input '111111'
+String accepted in 27 steps.
+
+Trace path:
+Step 0:   [q1] 111111
+Step 1:  $ [q2] 11111
+Step 2:  $x [q3] 1111
+Step 3:  $xx [q3] 111
+Step 4:  $xxx [q3] 11
+Step 5:  $xx [q4] x11
+Step 6:  $x [q4] xx11
+Step 7:  $ [q4] xxx11
+Step 8:   [q4] $xxx11
+Step 9:  _ [q5s] xxx11
+Step 10:  _x [q5s] xx11
+Step 11:  _xx [q5s] x11
+Step 12:  _xxx [q5s] 11
+Step 13:  _xx [q6] x$1
+Step 14:  _x [q6] xx$1
+Step 15:  _ [q6] xxx$1
+Step 16:   [q6] _xxx$1
+Step 17:  _ [q7] xxx$1
+Step 18:  __ [q5x] xx$1
+Step 19:  ___ [q5x] x$1
+Step 20:  ____ [q5x] $1
+Step 21:  ____$ [q5x] 1
+Step 22:  ____ [q6] $x
+Step 23:  ___ [q6] _$x
+Step 24:  ____ [q7] $x
+Step 25:  _____ [q5s] x
+Step 26:  _____x [q5s] 
+Step 27:  _____ [qaccept] x_
